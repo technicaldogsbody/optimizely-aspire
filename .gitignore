@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+src/TechnicalDogsbody.Optimizely.Aspire.AppHost/App_Data/database-files
+src/TechnicalDogsbody.Optimizely.Aspire.Web/modules
+src/TechnicalDogsbody.Optimizely.Aspire.Web/log.txt
