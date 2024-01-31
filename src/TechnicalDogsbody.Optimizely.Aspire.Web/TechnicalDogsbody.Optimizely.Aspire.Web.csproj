@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CliWrap" Version="3.6.6" />
+    <PackageReference Include="EPiServer.CMS" Version="12.*" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TechnicalDogsbody.Optimizely.Aspire.ServiceDefaults\TechnicalDogsbody.Optimizely.Aspire.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>
